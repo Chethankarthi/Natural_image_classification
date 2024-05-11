@@ -19,21 +19,6 @@ After training, the model was evaluated on the validation set to assess its perf
 
 Results
 Test Accuracy: 89.5%
-Classification Report:
-markdown
-Copy code
-              precision    recall  f1-score   support
-
-   buildings       0.94      0.85      0.89       437
-      forest       0.93      0.99      0.96       474
-     glacier       0.83      0.87      0.85       553
-    mountain       0.87      0.80      0.83       525
-         sea       0.92      0.94      0.93       510
-      street       0.90      0.92      0.91       501
-
-    accuracy                           0.90      3000
-   macro avg       0.90      0.90      0.90      3000
-weighted avg       0.90      0.90      0.89      3000
 Visualizations
 We included visualizations such as a confusion matrix and sample images with their predicted and true labels to provide insights into the model's performance and predictions.
 
